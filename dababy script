@@ -1,1 +1,10 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Divine V0.2";
+	Text = "Due to game updates this script has been removed.";
+	Icon = "";
+	Duration = 15;
+	Button1 = "Tap";
+})
+
+wait(7)
 game.Players.LocalPlayer:Kick("Divine has been patched; check back for updates.")
