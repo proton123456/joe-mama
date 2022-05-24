@@ -6,5 +6,13 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Button1 = "Tap";
 })
 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Divine V0.2";
+	Text = "#RIPDIVINE";
+	Icon = "";
+	Duration = 5;
+	Button1 = "Tap";
+})
+
 wait(7)
-game.Players.LocalPlayer:Kick("Divine has been patched; check back for updates.")
+game.Players.LocalPlayer:Kick("REJOIN || Divine has been patched; Check back for updates.")
